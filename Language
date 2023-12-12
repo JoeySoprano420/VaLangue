@@ -1,0 +1,34 @@
+# VaLangue Syntax and Basics
+
+# Special characters
+Beg: Command { Parameters }* End*
+
+# Parameters
+Key: 'Value'
+
+# Constructs
+Beg: ImplementAlgorithm { Algorithm: 'Sorting', Language: 'C++' }* End*
+Beg: DevelopAIChatbot { Purpose: 'CustomerSupport', Language: 'C++' }* End*
+Beg: CreateWebApplication { Framework: 'React', Language: 'C++' }* End*
+Beg: ImplementMachineLearningModel { ModelType: 'NeuralNetwork', Framework: 'TensorFlow' }* End*
+Beg: ParallelProcess { Tasks: ["Task1", "Task2"], ExecutionMode: 'Concurrent' }* End*
+Beg: EnsureSecurity { SecureCodingPractices: true, Encryption: true, Authentication: true }* End*
+
+# Logic
+Purpose Attribute: Specifies the purpose of the command.
+Algorithm Attribute: Specifies the type of algorithm in the ImplementAlgorithm command.
+Framework Attribute: Specifies the framework in the CreateWebApplication command.
+Language Attribute: Specifies the target programming language.
+
+# Use Cases
+Creating algorithms in C++.
+Developing AI chatbots for customer support.
+Creating web applications with React in C++.
+
+# Example VaLangue Commands
+Beg: ImplementAlgorithm { Algorithm: 'Sorting', Language: 'C++' }* End*
+Beg: DevelopAIChatbot { Purpose: 'CustomerSupport', Language: 'C++' }* End*
+Beg: CreateWebApplication { Framework: 'React', Language: 'C++' }* End*
+Beg: ImplementMachineLearningModel { ModelType: 'NeuralNetwork', Framework: 'TensorFlow' }* End*
+Beg: ParallelProcess { Tasks: ["Task1", "Task2"], ExecutionMode: 'Concurrent' }* End*
+Beg: EnsureSecurity { SecureCodingPractices: true, Encryption: true, Authentication: true }* End*
